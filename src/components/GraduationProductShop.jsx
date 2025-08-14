@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-
+import im1 from './Bouquet/im1.png';
 // GraduationProductShop.jsx
 // Single-file React component (default export).
 // - Tailwind CSS utility classes are used for styling (make sure Tailwind is configured in your project)
@@ -12,7 +12,7 @@ const PRODUCTS = [
     category: "ช่อดอกไม้",
     title: "ช่อทานตะวันไหมมพรมสดใส",
     price: 150,
-    image: "Bouquet/im1.png",
+    image: im1,
     description: "ช่อไหมมพรมดอกทานตะวัน สวยงามและประณีต ผลงานแฮนด์เมดที่ใช้ไหมมพรมคุณภาพดี รังสรรค์เป็นดอกทานตะวันที่สดใสและเปี่ยมด้วยพลังแห่งความสุข เหมาะสำหรับเป็นของขวัญแทนใจในทุกโอกาส ไม่ว่าจะเป็นงานรับปริญญา วันเกิด หรือเป็นของตกแต่งบ้านที่อบอุ่นและมีเอกลักษณ์เฉพาะตัว ดอกไม้ไหมมพรมนี้ไม่มีวันเหี่ยวเฉา เหมือนความรักและความทรงจำที่ยั่งยืน",
   },
   {
