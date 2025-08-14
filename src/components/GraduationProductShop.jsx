@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-
+import im1 from './Bouquet/im1.png';
 // GraduationProductShop.jsx
 // Single-file React component (default export).
 // - Tailwind CSS utility classes are used for styling (make sure Tailwind is configured in your project)
@@ -12,7 +12,7 @@ const PRODUCTS = [
     category: "ช่อดอกไม้",
     title: "ช่อทานตะวันไหมมพรมสดใส",
     price: 150,
-    image: "/Bouquet/im1.png",
+    image: im1,
     description: "ช่อไหมมพรมดอกทานตะวัน สวยงามและประณีต ผลงานแฮนด์เมดที่ใช้ไหมมพรมคุณภาพดี รังสรรค์เป็นดอกทานตะวันที่สดใสและเปี่ยมด้วยพลังแห่งความสุข เหมาะสำหรับเป็นของขวัญแทนใจในทุกโอกาส ไม่ว่าจะเป็นงานรับปริญญา วันเกิด หรือเป็นของตกแต่งบ้านที่อบอุ่นและมีเอกลักษณ์เฉพาะตัว ดอกไม้ไหมมพรมนี้ไม่มีวันเหี่ยวเฉา เหมือนความรักและความทรงจำที่ยั่งยืน",
   },
   {
@@ -20,7 +20,7 @@ const PRODUCTS = [
     category: "ช่อธนบัตร",
     title: "ช่อธนบัตร & ดอกไหมพรม",
     price: 530,
-    image: "/Bouquet/Bouquet2.png",
+    image: "Bouquet/Bouquet2.png",
     description: "Sunny sunflowers to celebrate a joyful graduation day.  เงิน",
   },
   {
@@ -28,7 +28,7 @@ const PRODUCTS = [
     category: "ช่อดอกไม้",
     title: "ช่อตุ๊กตา & ดอกไหมพรม",
     price: 250,
-    image: "/Bouquet/Bouquet3.png",
+    image: "Bouquet/Bouquet3.png",
     description: "Premium sash with gold embroidery and satin finish.",
   },
   {
@@ -36,7 +36,7 @@ const PRODUCTS = [
     category: "ช่อดอกไม้",
     title: "ช่อตุ๊กตา & ดอกไหมพรม",
     price: 250,
-    image: "/Bouquet/Bouquet4.png",
+    image: "Bouquet/Bouquet4.png",
     description: "Personalize with name and faculty; perfect keepsake.",
   },
   {
@@ -44,7 +44,7 @@ const PRODUCTS = [
     category: "สายสะพาย",
     title: "สายสะพาย Congratulations",
     price: 100,
-    image: "/line/line1.png",
+    image: "line/line1.png",
 
     description: "Adorable teddy dressed in mini graduation gown.",
   },
@@ -53,7 +53,7 @@ const PRODUCTS = [
     category: "สายสะพาย",
     title: "สายสะพาย ข้อความ",
     price: 100,
-    image: "/line/line2.png",
+    image: "line/line2.png",
 
     description: "Adorable teddy dressed in mini graduation gown.",
   },
